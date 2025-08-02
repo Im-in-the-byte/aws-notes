@@ -11,5 +11,5 @@ Cloud computing is on-demand delivery of IT resources(such as servers, storage, 
 
 ## Service Models
 - **IaaS (Infrastructure as a service)**
-  Provides virtualized computing resources over the internet.
-  *Example: AWS EC2, Google Compute Engine*
+Provides virtualized computing resources over the internet.
+*Example: AWS EC2, Google Compute Engine*
