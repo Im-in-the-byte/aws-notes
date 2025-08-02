@@ -8,3 +8,8 @@ Cloud computing is on-demand delivery of IT resources(such as servers, storage, 
 - **Scalability**: Easily scale up or down depending on demand.
 - **Cost-effective**: Pay only for what you use, no upfront cost.
 - **Global access**: Services are accessible from anywhere via the internet.
+
+## Service Models
+- **IaaS (Infrastructure as a service)**
+  Provides virtualized computing resources over the internet.
+  *Example: AWS EC2, Google Compute Engine*
