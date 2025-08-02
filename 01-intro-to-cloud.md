@@ -16,3 +16,6 @@ Cloud computing is on-demand delivery of IT resources(such as servers, storage, 
 - **PaaS (Platform as a service)**
   Provides a platform and environment to allow developers build applications.
   *Example: AWS Elastic Beanstalk, Google App Engine*
+- **SaaS (Software as a service)**
+  Provides fully managed software applications to the end user.
+  *Example: Gmail, Office 365*
