@@ -27,3 +27,14 @@ AWS provides a **Global Infrastructure** that allows customers to deploy applica
 ---
 
 ## How AWS Global Infrastructure Helps
+- **High Availability:** Resources are distributed across AZs.
+- **Low Latency:** Users can connect to the nearest Region.
+- **Fault Tolerance:** Even if one AZ fails, others continue running.
+
+--- 
+
+**Tip:** Always architect applications to use multiful AZs within a Region for resilience.
+
+---
+
+*These notes are part of my AWS learning journey (Cloud Practitioner level).*
