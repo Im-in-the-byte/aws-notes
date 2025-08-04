@@ -42,9 +42,9 @@
 ## Root User vs IAM User
 | Feature           | Root User         | IAM User         |
 |-------------------|-------------------|------------------|
-| Created by default| ✅                | ❌ (you create)  |
-| Full privileges   | ✅                | ❌ (custom)      |
-| Recommended use   | ❌ (avoid daily use) | ✅ (everyday use) |
+| Created by default| O                 | X (you create)   |
+| Full privileges   | O                 | X (custom)       |
+| Recommended use   | X (avoid daily use) | O (everyday use) |
 
 ---
 
