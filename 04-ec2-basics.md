@@ -25,8 +25,31 @@
 - Used to securely SSH into your instance.
 - You download the `.pem` file once.
 
-### 5. Security Groups
+### 5. Security Group
 - Acts as a **virtual firewall** for your instance.
 - Control **inbound** and **outboud** traffic rules.
 
 ---
+
+## EC2 Pricing option
+- **On-demand**: Pay per hour/second, no commitment.
+- **Reserved Instances**: 1 or 3-year commitment, lower cost.
+- **Spot Instances**: Cheapest, but can be interrupted anytime.
+
+---
+
+## EC2 Life Style
+1. Launch Instance (choose AMI, intance type, key pair, security group)
+2. Running (you can SSH into it)
+3. Stop / Start / Terminate
+
+---
+
+## Best Practices
+- Use **security group** toe restrict access (e.g., allow SSH your IP only).
+- Always use **key pairs** securely (don't lose you `.pem` file).
+- Stop or terminate unused instances to save cost.
+
+---
+
+*These notes are part of my AWS learning journey (Cloud Practitioner level).*
