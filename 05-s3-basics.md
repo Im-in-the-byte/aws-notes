@@ -60,3 +60,15 @@
   1. Enable static website hosting.
   2. Upload `index.html` and `error.html`.
   3. Set bucket policy to allow public read access.
+ 
+---
+
+## Best practices
+- Use **versioning** to protect against accidental overwrites/delettions.
+- Set **life cycle polities** to move data to cheaper storage over time.
+- **Block public access** unless explicitly needed.
+- Enable **encryption** (SSE-S3 or SSE-KMS) for sensitive data.
+
+---
+
+*These notes are part of my AWS learning journey (Cloud Practitioner level).*
