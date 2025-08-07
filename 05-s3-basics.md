@@ -34,6 +34,6 @@
 - Choose based on freauency of access and cost:
   - **Standard**: Frequent access, high durability.
   - **Intelligent-Tiering**: Automatically moves objects to lower-cost tiers.
-  - **Standard-AI**: Infrequent access.
+  - **Standard-IA**: Infrequent access.
   - **Glacier**: Archival, retrieval takes minutes or hours.
   - **Glacier Deep Archive**: Lowest cost, for long-term cold storage.
