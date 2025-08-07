@@ -59,4 +59,4 @@
 - Steps:
   1. Enable static website hosting.
   2. Upload `index.html` and `error.html`.
-  3. Set backup policy to allow public read access.
+  3. Set bucket policy to allow public read access.
