@@ -37,3 +37,26 @@
   - **Standard-IA**: Infrequent access.
   - **Glacier**: Archival, retrieval takes minutes or hours.
   - **Glacier Deep Archive**: Lowest cost, for long-term cold storage.
+
+---
+
+## Access Control
+
+### 1. Bucket Policy
+- Defines rules for access at the bucket level using JSON.
+- Example: Make bucket public for static website hosting.
+
+### 2. ACL (Access Control List)
+- Legacy method for controlling access at object level.
+
+### 3. IAM Policy
+- Best practice: Control access using IAM rules and policies.
+
+---
+
+## Static Website Hosting
+- You can host HTML/CSS/JS static websites directly from an S3 bucket.
+- Steps:
+  1. Enable static website hosting.
+  2. Upload `index.html` and `error.html`.
+  3. Set backup policy to allow public read access.
