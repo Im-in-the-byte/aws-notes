@@ -34,8 +34,27 @@
 
 ---
 
-# What is Amazon DynamoDB?
+## What is Amazon DynamoDB?
 
 - Fully managed NoSQL key-value and document database.
 - Single digit millisecond performace at any time.
 - Serverless — no provisioning of servers required.
+
+---
+
+## Core concepts of DynamoDB
+
+### 1. Table
+- Container for data, similar to relational DB table.
+
+### 2. Item
+- A single row of data.
+
+### 3. Attribute
+- A single column or property of an item.
+
+### 4. Primary Key
+- Can be **partition key** or **partition + sort key**.
+
+### 5. Globla & Local Secondary Indexes
+- Support queries on non-primary key attribution.
