@@ -74,11 +74,11 @@
 
 ## Use Cases
 
-- RDS:
+- **RDS:**
   - Traditional applications needing complex joins & transactions.
   - ERP, CRM, web apps
  
-- DynamoDB:
+- **DynamoDB:**
   - Gamming leaderboards, IoT data, real-time analytics
   - Event logging, user session storage
  
