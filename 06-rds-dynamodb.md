@@ -48,13 +48,40 @@
 - Container for data, similar to relational DB table.
 
 ### 2. Item
-- A single row of data.
+- A single row of data in table.
 
 ### 3. Attribute
 - A single column or property of an item.
 
 ### 4. Primary Key
+- The value that uniquely identifies each item.
 - Can be **partition key** or **partition + sort key**.
 
 ### 5. Globla & Local Secondary Indexes
 - Support queries on non-primary key attribution.
+
+---
+
+## RDS vs DynamoDB
+| Feature        | RDS                      | DynamoDB                   |
+| -------------- | ------------------------ | -------------------------- |
+| Type           | Relational               | NoSQL                      |
+| Scaling        | Vertical & Read Replicas | Horizontal (automatic)     |
+| Management     | Semi-managed             | Fully managed (serverless) |
+| Query Language | SQL                      | NoSQL API                  |
+
+---
+
+## Use Cases
+
+- RDS:
+  - Traditional applications needing complex joins & transactions.
+  - ERP, CRM, web apps
+ 
+- DynamoDB:
+  - Gamming leaderboards, IoT data, real-time analytics
+  - Event logging, user session storage
+ 
+---
+
+## Best Practices
