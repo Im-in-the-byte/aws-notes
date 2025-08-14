@@ -36,4 +36,6 @@
 
 # What is Amazon DynamoDB?
 
--
+- Fully managed NoSQL key-value and document database.
+- Single digit millisecond performace at any time.
+- Serverless -- no provisioning of servers required.
