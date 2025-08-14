@@ -85,3 +85,11 @@
 ---
 
 ## Best Practices
+- Use **Multi-AZ** for production RDS.
+- Enable **automatic backups** and set retention policy.
+- For DynamoDB, design with **access patterns** in mind.
+- Enable **DynamoDB auto-scaling** to handle variable workloads.
+
+---
+
+*These notes are part of my AWS learning journey (Cloud Practitioner level).*
