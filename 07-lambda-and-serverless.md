@@ -65,4 +65,14 @@
 ---
 
 ## Best Practices
-- 
+- Keep functions **lightweight and focused** (single responsibility).
+- Use **environment variables** for configuration.
+- Set **timeouts** to avoid unnecessary charges.
+- Monitor with **CloudWatch Logs** and **X-ray** for tacing.
+- Minimize cold starts by:
+  - Keeping functions small.
+  - Using Provisioned Concurrency if needed.
+
+---
+
+*These notes are part of my AWS learning journey (Cloud Practitioner level).*
