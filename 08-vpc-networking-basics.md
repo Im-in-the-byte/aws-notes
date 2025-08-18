@@ -1,1 +1,1 @@
-# 8. VPC Networking Basics
+# 08 VPC Networking Basics
