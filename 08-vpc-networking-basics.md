@@ -40,4 +40,19 @@
 
 ---
 
+## Example: Public vs Private
+- Public Subnet: Web server with Elastic IP -> accessible by users.
+- Private Subnet: Database server -> Only web server can connet to it.
 
+---
+
+Best Practices
+- Use **multiful Availability Zones** for high availability.
+- Place **databases in private subnet** (never public).
+- Use **NAT Gateway** for outbound internet from private subnets.
+- Use **Security Groups for instance-level security** and **NACLs for subnet-level**.
+- Follow the **least privilege principle** in all rules.
+
+---
+
+*These notes are part of my AWS learning journey (Cloud Practitioner level).*
