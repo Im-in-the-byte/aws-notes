@@ -11,7 +11,7 @@
  
 ---
 
-## Key concepts
+## Key Concepts
 
 1. Subnet
 - A **sub-division** of your VPC.
