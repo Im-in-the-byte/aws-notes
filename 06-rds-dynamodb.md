@@ -1,6 +1,6 @@
 # 06 Amazon RDS & DynamoDB Overview
 
-## What is Azazon RDS?
+## What is Amazon RDS?
 - Amazon RDS (Relational Database Service) is a **managed relational database** service.
 - Supports multiful engines:
   - **MySQL**
