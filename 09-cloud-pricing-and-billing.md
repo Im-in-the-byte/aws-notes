@@ -38,3 +38,34 @@
 
 ## Billing and Cost Management
 
+### 1. AWS Pricing Calculator
+- Estmate cost of service before use.
+
+### 2. Billing Dashboard
+- Actual billing status
+- View usage, charges, and forecast.
+
+### 3. Csot Explorer
+- Analyze cost and usage over time.
+- Identify spend trends and anomalies.
+
+### 4. Budgets
+- Set cost and usage budgets.
+- Receive alerts when thresholds are exceeded.
+
+### 5. Trusted Advisor
+- Provides recommendations on cost **optimization, performace, security, fault tolerance, and service limits**.
+
+---
+
+## Best Practices
+- Use Right-size resources (avoid over-provisioning).
+- Use auto scaling to match demand.
+- Move infrequently accessed data to cheaper storage tiers.
+- Use saving plans or RI to predictavle workloads.
+- Monitor with **Cost Explorer** and **Budgets**.
+
+---
+
+
+
