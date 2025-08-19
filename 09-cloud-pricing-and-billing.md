@@ -29,6 +29,12 @@
 
 ---
 
-AWS Free Tier
+## AWS Free Tier
 - **Always Free**: Lambda 1M requests/month, DynamoDB 25GB storage
-- **Free Tier**
+- **12-months Free**: EC2 t2.micro 750 hours/month, S3 5GB storage
+- **Trial**: Short-term free usage for some services.
+
+---
+
+## Billing and Cost Management
+
