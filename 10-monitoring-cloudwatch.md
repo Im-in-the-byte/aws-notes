@@ -42,4 +42,22 @@
 
 ---
 
-## 
+## CloudWatch vs CloudTrail
+
+| Feature   | CloudWatch                           | CloudTrail                         |
+| --------- | ------------------------------------ | ---------------------------------- |
+| Purpose   | Performance & operational monitoring | API activity auditing              |
+| Data Type | Metrics, logs, events                | API calls (who, what, when, where) |
+| Use Case  | Resource health, scaling triggers    | Security analysis, compliance      |
+
+---
+
+## CloudWhatch Agent
+- Installed on EC2 or on premises servers.
+- Collects OS-level metrics. (detailed data)
+  - CPU, memory, disk, processes
+- Publishes to CloudWatch for monitoring.
+
+---
+
+
