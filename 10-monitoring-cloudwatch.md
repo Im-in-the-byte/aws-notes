@@ -54,10 +54,19 @@
 
 ## CloudWhatch Agent
 - Installed on EC2 or on premises servers.
-- Collects OS-level metrics. (detailed data)
+- Collects OS-level metrics. (detailed datas)
   - CPU, memory, disk, processes
 - Publishes to CloudWatch for monitoring.
 
 ---
 
+## Best Practices
+- Enable **detailed monitoring** for critical workloads.
+- Set up alarms with **SNS** notification.
+- Use **dashboards** for quick visibility.
+- Stream logs to **S3 or Elasticsearch** for long term storage/analysis.
+- Combine CloudWatch (monitoring) + CloudTrail (auditing) for full obsrvability.
 
+---
+
+*These notes are part of my AWS learning journey (Cloud Practitioner level).*
