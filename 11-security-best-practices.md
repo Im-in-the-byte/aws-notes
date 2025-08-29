@@ -22,3 +22,9 @@
 - **VPC** design:
   - Public/private subnets, NAT Gateway, Internet Gateway
 - **Security Groups** (stateful) and **Network ACLs** (stateless).
+- Limit inbound/outbound rules to only what's necessary.
+- Use **AWS WAF** and **Shield** for DDos and application-layer protection.
+
+## Monitoring and Loggin
+- **CloudTrail**: Record all API calls for auditing.
+- 
