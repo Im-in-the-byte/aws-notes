@@ -12,3 +12,13 @@
 - Rotate credentials and remove unused accounts.
 
 ## Data Protection
+- **Encryption**:
+  - At rest: KMS, S3 SSE, EBS encryption
+  - In transit: TLS/SSL
+- Regular backups and replication.
+- Use Amazon **Macie** to discover and protect sensitive data.
+
+## Network Security
+- **VPC** design:
+  - Public/private subnets, NAT Gateway, Internet Gateway
+- **Security Groups** (stateful) and **Network ACLs** (stateless).
