@@ -27,4 +27,6 @@
 
 ## Monitoring and Loggin
 - **CloudTrail**: Record all API calls for auditing.
-- 
+- **CloudWatch**: Metrics, logs, alarms.
+- **GuardDuty**: Threat detection.
+- **Config**: Continuous compliance monitoring.
