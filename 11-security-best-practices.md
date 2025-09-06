@@ -30,3 +30,24 @@
 - **CloudWatch**: Metrics, logs, alarms.
 - **GuardDuty**: Threat detection.
 - **Config**: Continuous compliance monitoring.
+
+## Application and Resource Security
+- Apply patches and updates regularly (Use Systems Manager Patch Manager).
+- Validate input to prevent injection attacks.
+- Use **Secrets Manager** or **SSM Parameter Store** for sensitive data.
+
+## Governance and Compliance
+- Set up **Service Control Policies(SCPs)** in AWS Organizations.
+- Tag resources for visibility and cost/security tracking.
+- Automate compliance checks with **Security Hub** and **AWS Audit Manager**.
+
+---
+
+### Key Takeaways:
+- Start with **strong IAM and MFA**.
+- Encrypt everywhere, monitor continuosly.
+- Automate and audit security regularly.
+
+---
+
+
