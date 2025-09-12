@@ -16,3 +16,8 @@
 - **EBS & EFS**: Block and file storage.
 - **RDS & DynamoDB**: Managed relational and NoSQL databases.
 - **Backups & Replication**: Ensuring durability and disaster recovery.
+
+## 4. Networking
+- **VPC**: Subnets (public/private), Route Tables, IGW, NAT.
+- **Security Groups & NACLs**: Traffic control.
+- **VPN & Direct Connect**: Hybrid networking.
