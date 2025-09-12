@@ -21,3 +21,18 @@
 - **VPC**: Subnets (public/private), Route Tables, IGW, NAT.
 - **Security Groups & NACLs**: Traffic control.
 - **VPN & Direct Connect**: Hybrid networking.
+
+## 5. Monitoring & Optimization
+- **CloudWatck**: Metrics. logs, alarms.
+- **CloudTrail**: API auditing.
+- **Trusted Adviser**: Cost, security, performance recommandations.
+- **Cost Explorer & Budgets**: Financial tracking.
+
+## 6. Best Practices Recap
+- **Design for failure**: High availability & fault tolerance.
+- **Automate**: Infrastructure as Code (Cloud Formation, CDK).
+- **Security First**: IAM, MFA, encrytion, logging.
+- **Continuous Monitoring**: GuardDuty, Config, Security Hub.
+- **Optimize Cost & performance**: Right-sizing, reversed instances, cashing.
+
+---
