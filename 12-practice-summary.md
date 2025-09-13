@@ -36,3 +36,12 @@
 - **Optimize Cost & performance**: Right-sizing, reversed instances, cashing.
 
 ---
+
+## Final Notes
+- AWS is broad and evolving -> focus on core services + security.
+- Think in terms of resilience, automation, and cost-efficiency.
+- Always align with best practices: Well architected framework (operational exellence, security, reliability, performance).
+
+---
+
+
