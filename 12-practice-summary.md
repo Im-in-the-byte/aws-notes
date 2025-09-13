@@ -44,4 +44,4 @@
 
 ---
 
-
+*These notes are part of my AWS learning journey (Cloud Practitioner level).*
